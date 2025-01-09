@@ -1,0 +1,11 @@
+name: firstjoinmessage
+version: '${project.version}'
+main: net.cofidayo.firstjoinmessage.Firstjoinmessage
+api-version: '1.21'
+author: 'Cofidayo'
+commands:
+  fjm:
+    description: First Join Message
+    usage: /fjm reload
+    permission: fjm.admin
+    permission-message: 権限がない
